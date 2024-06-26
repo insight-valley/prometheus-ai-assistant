@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "chainlintu"
+version = "0.1.0"
+description = ""
+authors = ["gabriel-dantas98 <gabriel-dantas98@outlook.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+chainlit = "^1.1.304"
+langchain-openai = "^0.1.9"
+langchain = "^0.2.5"
+playwright = "^1.44.0"
+beautifulsoup4 = "^4.12.3"
+langchain-community = "^0.2.6"
+nest-asyncio = "^1.6.0"
+html2text = "^2024.2.26"
+langchain-text-splitters = "^0.2.2"
+lxml = "^5.2.2"
+faiss-cpu = "^1.8.0.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
