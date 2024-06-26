@@ -10,4 +10,4 @@ COPY . /app/
 RUN poetry config virtualenvs.create false
 RUN poetry install --no-dev
 
-CMD ["python", "-m", "chainlit", "run", "app.py", "-h", "--port", "{PORT}"]
+CMD ["python", "-m", "chainlit", "run", "app.py", "-h", "0.0.0.0", "--port", "${PORT}"]
