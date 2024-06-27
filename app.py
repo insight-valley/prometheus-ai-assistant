@@ -41,7 +41,6 @@ async def set_starters():
             message="Exemplos de melhores alertas para serem usados em um cluster de Kubernetes",
             icon="/public/kubernetes.svg",
             ),
-
         cl.Starter(
             label="Alertas para banco de dados PostgresSQL",
             message="Exemplos de alertas focados em métricas para bancos de dados Postgres",
