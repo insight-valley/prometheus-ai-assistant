@@ -44,7 +44,7 @@ async def set_starters():
 
         cl.Starter(
             label="Alertas para banco de dados PostgresSQL",
-            message="Alertas para bancos de dados Postgres",
+            message="Exemplos de alertas focados em métricas para bancos de dados Postgres",
             icon="/public/postgresql.svg",
             ),
         cl.Starter(
