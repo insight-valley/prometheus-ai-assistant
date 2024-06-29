@@ -38,17 +38,17 @@ async def set_starters():
     return [
         cl.Starter(
             label="Alertas para Kubernetes",
-            message="Exemplos de melhores alertas para serem usados em um cluster de Kubernetes",
+            message="Alertas para acompanhar a saude do cluster de Kubernetes (Nodes, API Server ou Etcd)",
             icon="/public/kubernetes.svg",
             ),
         cl.Starter(
             label="Alertas para banco de dados PostgresSQL",
-            message="Exemplos de alertas focados em métricas para bancos de dados Postgres",
+            message="Alertas focados em métricas para bancos de dados Postgres",
             icon="/public/postgresql.svg",
             ),
         cl.Starter(
             label="Alertas focados para servidores usando node_exporter",
-            message="Exemplos de alertas focados em métricas de hardware focadas em métricas do node_exporter",
+            message="Alertas para ajudar a acompanhar métricas do node_exporter",
             icon="/public/server.svg",
             ),
         ]
