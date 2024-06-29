@@ -12,7 +12,7 @@ from langchain.chains import create_retrieval_chain
 from langchain_openai import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 
-from constant import prompt_template
+from constant import prompt_template, prompt_template_v2
 
 import chainlit as cl
 
@@ -57,7 +57,7 @@ async def set_starters():
 async def on_chat_start():
     
     system_prompt = (
-        prompt_template
+        prompt_template_v2
     )
 
     prompt = ChatPromptTemplate.from_messages(
