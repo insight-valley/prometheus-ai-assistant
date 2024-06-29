@@ -38,7 +38,7 @@ async def set_starters():
     return [
         cl.Starter(
             label="Alertas para Kubernetes",
-            message="Alertas para acompanhar a saude do cluster de Kubernetes (Nodes, API Server ou Etcd)",
+            message="Alertas para acompanhar a saúde do cluster de Kubernetes (Nodes, API Server ou Etcd)",
             icon="/public/kubernetes.svg",
             ),
         cl.Starter(
